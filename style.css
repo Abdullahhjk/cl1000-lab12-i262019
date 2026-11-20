@@ -1,0 +1,79 @@
+#container {
+    max-width: 50vh;
+    max-height: 90vh;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    transition: 0.2s;
+}
+#container:hover {
+    scale: 101%;
+    box-shadow: 5.05px 5.05px gray;
+    transition: 0.2s;
+}
+#card-abdullah {
+    margin: 10px;
+    height: auto;
+    padding: 5px;
+}
+#card-header {
+    color: #DDEFEF;
+    text-align: center;
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(39, 190, 190);
+}
+#card-header b {
+    font-size: x-large;
+    font-weight: bolder;
+}
+#card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#photo {
+    text-align: center;
+    align-items: center;
+}
+#photo img {
+    border: 2px solid teal;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    transition: 1s;
+}
+#photo img:hover {
+    scale: 102%;
+    transition: 1s;
+}
+
+
+.info-rows {
+    border: 2px solid teal;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.info-rows .info-row {
+    padding: 1px;
+    margin: 2px;
+}
+
+#card-footer {
+    text-align: center;
+}
+#card-footer span {
+    font-size: larger;
+    font-weight: 900;
+    
+}
